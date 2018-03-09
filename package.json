@@ -1,0 +1,29 @@
+{
+  "name": "devjobs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "npm-run-all dev:server",
+    "dev:server": "NODE_ENV=development nodemon server.js server.js --watch src --watch server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "ejs": "^2.5.7",
+    "express": "4.16.2",
+    "faker": "^4.1.0",
+    "fs-extra": "^4.0.2",
+    "knex": "^0.14.0",
+    "mysql": "^2.15.0",
+    "npm-run-all": "4.1.2",
+    "objection": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.12.1"
+  }
+}
