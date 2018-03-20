@@ -1,7 +1,7 @@
-const Router = require("express").Router;
-const Week = require("../models/Week.js");
-const Student = require("../models/Student.js");
-const Days = require("../models/Days.js");
+const Router = require('express').Router;
+const Week = require('../models/Week.js');
+const Student = require('../models/Student.js');
+const Days = require('../models/Days.js');
 
 const apiRouter = Router();
 
@@ -11,7 +11,7 @@ function daysIndex(req, res) {
       return res.json(data);
     })
     .catch(e => {
-      res.send("Error: ", e).status(500);
+      res.send('Error: ', e).status(500);
     });
 }
 
@@ -22,7 +22,7 @@ function singleDay(req, res) {
       return res.json(data).status(200);
     })
     .catch(e => {
-      res.send("Error: ", e).status(500);
+      res.send('Error: ', e).status(500);
     });
 }
 
@@ -59,24 +59,24 @@ function deleteDay(req, res) {
 
 function weekIndex(req, res) {
   Week.query()
-    .eager("days")
+    .eager('days')
     .then(data => {
       return res.json(data);
     })
     .catch(e => {
-      res.send("Error: ", e).status(500);
+      res.send('Error: ', e).status(500);
     });
 }
 
 function weekSingle(req, res) {
   Week.query()
     .findById(req.params.id)
-    .eager("days")
+    .eager('days')
     .then(data => {
       return res.json(data).status(200);
     })
     .catch(e => {
-      res.send("Error: ", e).status(500);
+      res.send('Error: ', e).status(500);
     });
 }
 
@@ -102,17 +102,17 @@ function updateWeek(req, res) {
 
 function deleteWeek(req, res) {
   Week.query()
-    .where("id", req.params.id)
+    .where('id', req.params.id)
     .first()
-    .returning("*")
+    .returning('*')
     .then(recordToDelete => {
       return recordToDelete
-        .$relatedQuery("weeks")
+        .$relatedQuery('weeks')
         .delete()
-        .where("studentId", recordToDelete.id)
-        .returning("*")
+        .where('studentId', recordToDelete.id)
+        .returning('*')
         .then(data => {
-          console.log("deleting records:", data);
+          console.log('deleting records:', data);
           return recordToDelete;
         })
         .catch(err => {
@@ -135,7 +135,7 @@ function deleteWeek(req, res) {
 
 function studentsIndex(req, res) {
   Student.query()
-    .eager("[weeks, weeks.days]")
+    .eager('[weeks, weeks.days]')
     .then(data => {
       console.log(req.params);
       return res.json(data);
@@ -154,12 +154,12 @@ function createStudent(req, res) {
 function singleStudent(req, res) {
   Student.query()
     .findById(req.params.id)
-    .eager("[weeks, weeks.days]")
+    .eager('[weeks, weeks.days]')
     .then(data => {
       return res.json(data).status(200);
     })
     .catch(e => {
-      res.send("Error: ", e).status(500);
+      res.send('Error: ', e).status(500);
     });
 }
 
@@ -176,17 +176,17 @@ function updateStudent(req, res) {
 
 function studentsDelete(req, res) {
   Student.query()
-    .where("id", req.params.id)
+    .where('id', req.params.id)
     .first()
-    .returning("*")
+    .returning('*')
     .then(recordToDelete => {
       return recordToDelete
-        .$relatedQuery("weeks")
+        .$relatedQuery('weeks')
         .delete()
-        .where("studentId", recordToDelete.id)
-        .returning("*")
+        .where('studentId', recordToDelete.id)
+        .returning('*')
         .then(data => {
-          console.log("deleting records:", data);
+          console.log('deleting records:', data);
           return recordToDelete;
         })
         .catch(err => {
@@ -208,24 +208,24 @@ function studentsDelete(req, res) {
 }
 
 apiRouter
-  .get("/days", daysIndex)
-  .get("/days/:id", singleDay)
-  .post("/days", createDay)
-  .put("/days/:id", updateDay)
-  .delete("/days/:id", deleteDay);
+  .get('/days', daysIndex)
+  .get('/days/:id', singleDay)
+  .post('/days', createDay)
+  .put('/days/:id', updateDay)
+  .delete('/days/:id', deleteDay);
 
 apiRouter
-  .get("/weeks", weekIndex)
-  .get("/weeks/:id", weekSingle)
-  .post("/weeks", createWeek)
-  .put("/weeks/:id", updateWeek)
-  .delete("/weeks/:id", deleteWeek);
+  .get('/weeks', weekIndex)
+  .get('/weeks/:id', weekSingle)
+  .post('/weeks', createWeek)
+  .put('/weeks/:id', updateWeek)
+  .delete('/weeks/:id', deleteWeek);
 
 apiRouter
-  .get("/students", studentsIndex)
-  .get("/students/:id", singleStudent)
-  .post("/students", createStudent)
-  .put("/students/:id", updateStudent)
-  .delete("/students/:id", studentsDelete);
+  .get('/students', studentsIndex)
+  .get('/students/:id', singleStudent)
+  .post('/students', createStudent)
+  .put('/students/:id', updateStudent)
+  .delete('/students/:id', studentsDelete);
 
 module.exports = apiRouter;
