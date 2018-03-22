@@ -11,12 +11,55 @@ const fakeWeeks = () => {
   return weeks;
 };
 
+// const fake = [
+//   {
+//     week: 1,
+//     studentId: 1
+//   },
+//   {
+//     week: 2,
+//     studentId: 1
+//   },
+//   {
+//     week: 3,
+//     studentId: 1
+//   },
+//   {
+//     week: 4,
+//     studentId: 1
+//   },
+//   {
+//     week: 5,
+//     studentId: 1
+//   },
+//   {
+//     week: 1,
+//     studentId: 2
+//   },
+//   {
+//     week: 2,
+//     studentId: 2
+//   },
+//   {
+//     week: 3,
+//     studentId: 2
+//   },
+//   {
+//     week: 4,
+//     studentId: 2
+//   },
+//   {
+//     week: 5,
+//     studentId: 2
+//   }
+// ];
+
 exports.seed = function(knex, Promise) {
   // Deletes ALL existing entries
-  return knex("weeks")
+  return knex('weeks')
     .del()
     .then(function() {
       // Inserts seed entries
-      return knex("weeks").insert(fakeWeeks());
+      return knex('weeks').insert(fakeWeeks());
     });
 };

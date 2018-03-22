@@ -10,157 +10,64 @@ const dataRows = [
     day: 2,
     homework: true,
     attendance: true,
-    weekId: 1
+    weekId: 1,
+    studentId: 1
   },
   {
     day: 3,
     homework: true,
     attendance: true,
-    weekId: 1
+    weekId: 1,
+    studentId: 1
   },
   {
     day: 4,
     homework: true,
     attendance: true,
-    weekId: 1
+    weekId: 1,
+    studentId: 1
   },
   {
     day: 5,
     homework: true,
     attendance: true,
-    weekId: 1
+    weekId: 1,
+    studentId: 1
   },
   {
     day: 1,
     homework: true,
     attendance: true,
-    weekId: 2
+    weekId: 1,
+    studentId: 2
   },
   {
     day: 2,
     homework: true,
     attendance: true,
-    weekId: 2
+    weekId: 1,
+    studentId: 2
   },
   {
     day: 3,
     homework: true,
     attendance: true,
-    weekId: 2
+    weekId: 1,
+    studentId: 2
   },
   {
     day: 4,
     homework: true,
     attendance: true,
-    weekId: 2
+    weekId: 1,
+    studentId: 2
   },
   {
     day: 5,
     homework: true,
     attendance: true,
-    weekId: 2
-  },
-  {
-    day: 1,
-    homework: true,
-    attendance: true,
-    weekId: 3
-  },
-  {
-    day: 2,
-    homework: true,
-    attendance: true,
-    weekId: 3
-  },
-  {
-    day: 3,
-    homework: true,
-    attendance: true,
-    weekId: 3
-  },
-  {
-    day: 4,
-    homework: true,
-    attendance: true,
-    weekId: 3
-  },
-  {
-    day: 5,
-    homework: true,
-    attendance: true,
-    weekId: 3
-  },
-  {
-    day: 1,
-    homework: true,
-    attendance: true,
-    weekId: 4
-  },
-  {
-    day: 2,
-    homework: true,
-    attendance: true,
-    weekId: 4
-  },
-  {
-    day: 2,
-    homework: true,
-    attendance: true,
-    weekId: 4
-  },
-  {
-    day: 3,
-    homework: true,
-    attendance: true,
-    weekId: 4
-  },
-  {
-    day: 4,
-    homework: true,
-    attendance: true,
-    weekId: 5
-  },
-  {
-    day: 5,
-    homework: true,
-    attendance: true,
-    weekId: 5
-  },
-  {
-    day: 1,
-    homework: true,
-    attendance: true,
-    weekId: 6
-  },
-  {
-    day: 2,
-    homework: true,
-    attendance: true,
-    weekId: 6
-  },
-  {
-    day: 3,
-    homework: true,
-    attendance: true,
-    weekId: 6
-  },
-  {
-    day: 4,
-    homework: true,
-    attendance: true,
-    weekId: 6
-  },
-  {
-    day: 5,
-    homework: true,
-    attendance: true,
-    weekId: 6
-  },
-  {
-    day: 5,
-    homework: true,
-    attendance: true,
-    weekId: 20
+    weekId: 1,
+    studentId: 2
   }
 ];
 
