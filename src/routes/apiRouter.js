@@ -33,6 +33,9 @@ function singleDay(req, res) {
 }
 
 function createDay(req, res) {
+  console.log('PARAMS', req.params);
+  console.log('BODY', req.body);
+
   Days.query()
     .insert(req.body)
     .where('studentId', req.params.studentId)
