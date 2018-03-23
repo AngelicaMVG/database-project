@@ -80,7 +80,7 @@ function studentsDelete(req, res) {
 studentsRouter
   .get('/', studentsIndex)
   .get('/:id/', singleStudent)
-  .post('/create', createStudent)
+  .post('/new', createStudent)
   .put('/:id/edit', updateStudent)
   .delete('/:id', studentsDelete);
 
