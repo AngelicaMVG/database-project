@@ -491,7 +491,7 @@ const dataRows = [
   },
   {
     dayName: 'Jueves',
-    weekId: 10,
+    weekId: 20,
     studentId: 2
   },
   {
@@ -921,6 +921,31 @@ const dataRows = [
   },
   {
     dayName: 'Viernes',
+    weekId: 37,
+    studentId: 3
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 38,
+    studentId: 3
+  },
+  {
+    dayName: 'Martes',
+    weekId: 38,
+    studentId: 3
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 38,
+    studentId: 3
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 38,
+    studentId: 3
+  },
+  {
+    dayName: 'Viernes',
     weekId: 38,
     studentId: 3
   },
@@ -1102,46 +1127,754 @@ const dataRows = [
   {
     dayName: 'Lunes',
     weekId: 46,
-    studentId: 3
+    studentId: 4
   },
   {
     dayName: 'Martes',
     weekId: 46,
-    studentId: 3
+    studentId: 4
   },
   {
     dayName: 'Miercoles',
     weekId: 46,
-    studentId: 3
+    studentId: 4
   },
   {
     dayName: 'Jueves',
     weekId: 46,
-    studentId: 3
+    studentId: 4
   },
   {
     dayName: 'Viernes',
     weekId: 46,
-    studentId: 3
+    studentId: 4
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 47,
+    studentId: 4
+  },
+  {
+    dayName: 'Martes',
+    weekId: 47,
+    studentId: 4
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 47,
+    studentId: 4
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 47,
+    studentId: 4
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 47,
+    studentId: 4
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 48,
+    studentId: 4
+  },
+  {
+    dayName: 'Martes',
+    weekId: 48,
+    studentId: 4
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 48,
+    studentId: 4
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 48,
+    studentId: 4
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 48,
+    studentId: 4
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 49,
+    studentId: 4
+  },
+  {
+    dayName: 'Martes',
+    weekId: 49,
+    studentId: 4
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 49,
+    studentId: 4
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 49,
+    studentId: 4
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 49,
+    studentId: 4
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 50,
+    studentId: 4
+  },
+  {
+    dayName: 'Martes',
+    weekId: 50,
+    studentId: 4
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 50,
+    studentId: 4
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 50,
+    studentId: 4
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 50,
+    studentId: 4
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 51,
+    studentId: 4
+  },
+  {
+    dayName: 'Martes',
+    weekId: 51,
+    studentId: 4
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 51,
+    studentId: 4
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 51,
+    studentId: 4
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 51,
+    studentId: 4
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 52,
+    studentId: 4
+  },
+  {
+    dayName: 'Martes',
+    weekId: 52,
+    studentId: 4
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 52,
+    studentId: 4
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 52,
+    studentId: 4
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 52,
+    studentId: 4
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 53,
+    studentId: 4
+  },
+  {
+    dayName: 'Martes',
+    weekId: 53,
+    studentId: 4
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 53,
+    studentId: 4
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 53,
+    studentId: 4
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 53,
+    studentId: 4
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 54,
+    studentId: 4
+  },
+  {
+    dayName: 'Martes',
+    weekId: 54,
+    studentId: 4
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 54,
+    studentId: 4
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 54,
+    studentId: 4
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 54,
+    studentId: 4
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 55,
+    studentId: 4
+  },
+  {
+    dayName: 'Martes',
+    weekId: 55,
+    studentId: 4
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 55,
+    studentId: 4
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 55,
+    studentId: 4
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 55,
+    studentId: 4
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 56,
+    studentId: 4
+  },
+  {
+    dayName: 'Martes',
+    weekId: 56,
+    studentId: 4
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 56,
+    studentId: 4
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 56,
+    studentId: 4
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 56,
+    studentId: 4
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 57,
+    studentId: 4
+  },
+  {
+    dayName: 'Martes',
+    weekId: 57,
+    studentId: 4
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 57,
+    studentId: 4
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 57,
+    studentId: 4
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 57,
+    studentId: 4
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 58,
+    studentId: 4
+  },
+  {
+    dayName: 'Martes',
+    weekId: 58,
+    studentId: 4
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 58,
+    studentId: 4
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 58,
+    studentId: 4
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 58,
+    studentId: 4
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 59,
+    studentId: 4
+  },
+  {
+    dayName: 'Martes',
+    weekId: 59,
+    studentId: 4
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 59,
+    studentId: 4
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 59,
+    studentId: 4
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 59,
+    studentId: 4
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 60,
+    studentId: 4
+  },
+  {
+    dayName: 'Martes',
+    weekId: 60,
+    studentId: 4
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 60,
+    studentId: 4
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 60,
+    studentId: 4
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 60,
+    studentId: 4
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 61,
+    studentId: 5
+  },
+  {
+    dayName: 'Martes',
+    weekId: 61,
+    studentId: 5
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 61,
+    studentId: 5
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 61,
+    studentId: 5
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 61,
+    studentId: 5
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 62,
+    studentId: 5
+  },
+  {
+    dayName: 'Martes',
+    weekId: 62,
+    studentId: 5
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 62,
+    studentId: 5
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 62,
+    studentId: 5
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 62,
+    studentId: 5
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 63,
+    studentId: 5
+  },
+  {
+    dayName: 'Martes',
+    weekId: 63,
+    studentId: 5
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 63,
+    studentId: 5
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 63,
+    studentId: 5
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 63,
+    studentId: 5
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 64,
+    studentId: 5
+  },
+  {
+    dayName: 'Martes',
+    weekId: 64,
+    studentId: 5
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 64,
+    studentId: 5
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 64,
+    studentId: 5
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 64,
+    studentId: 5
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 65,
+    studentId: 5
+  },
+  {
+    dayName: 'Martes',
+    weekId: 65,
+    studentId: 5
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 65,
+    studentId: 5
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 65,
+    studentId: 5
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 65,
+    studentId: 5
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 66,
+    studentId: 5
+  },
+  {
+    dayName: 'Martes',
+    weekId: 66,
+    studentId: 5
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 66,
+    studentId: 5
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 66,
+    studentId: 5
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 66,
+    studentId: 5
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 67,
+    studentId: 5
+  },
+  {
+    dayName: 'Martes',
+    weekId: 67,
+    studentId: 5
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 67,
+    studentId: 5
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 67,
+    studentId: 5
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 67,
+    studentId: 5
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 68,
+    studentId: 5
+  },
+  {
+    dayName: 'Martes',
+    weekId: 68,
+    studentId: 5
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 68,
+    studentId: 5
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 68,
+    studentId: 5
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 68,
+    studentId: 5
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 69,
+    studentId: 5
+  },
+  {
+    dayName: 'Martes',
+    weekId: 69,
+    studentId: 5
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 69,
+    studentId: 5
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 69,
+    studentId: 5
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 69,
+    studentId: 5
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 70,
+    studentId: 5
+  },
+  {
+    dayName: 'Martes',
+    weekId: 70,
+    studentId: 5
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 70,
+    studentId: 5
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 70,
+    studentId: 5
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 70,
+    studentId: 5
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 71,
+    studentId: 5
+  },
+  {
+    dayName: 'Martes',
+    weekId: 71,
+    studentId: 5
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 71,
+    studentId: 5
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 71,
+    studentId: 5
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 71,
+    studentId: 5
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 72,
+    studentId: 5
+  },
+  {
+    dayName: 'Martes',
+    weekId: 72,
+    studentId: 5
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 72,
+    studentId: 5
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 72,
+    studentId: 5
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 72,
+    studentId: 5
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 73,
+    studentId: 5
+  },
+  {
+    dayName: 'Martes',
+    weekId: 73,
+    studentId: 5
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 73,
+    studentId: 5
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 73,
+    studentId: 5
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 73,
+    studentId: 5
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 74,
+    studentId: 5
+  },
+  {
+    dayName: 'Martes',
+    weekId: 74,
+    studentId: 5
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 74,
+    studentId: 5
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 74,
+    studentId: 5
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 74,
+    studentId: 5
+  },
+  {
+    dayName: 'Lunes',
+    weekId: 75,
+    studentId: 5
+  },
+  {
+    dayName: 'Martes',
+    weekId: 75,
+    studentId: 5
+  },
+  {
+    dayName: 'Miercoles',
+    weekId: 75,
+    studentId: 5
+  },
+  {
+    dayName: 'Jueves',
+    weekId: 75,
+    studentId: 5
+  },
+  {
+    dayName: 'Viernes',
+    weekId: 75,
+    studentId: 5
   }
 ];
-
-// // const faker = require("faker");
-
-// // const fakeDays = () => {
-// //   const days = [];
-// //   for (var i = 1; i <= 15; i++) {
-// //     for (var j = 1; j <= 5; j++) {
-// //       days.push({
-// //         weekId: i,
-// //         dayName: j,
-// //         homework: faker.random.boolean(),
-// //         attendance: faker.random.boolean()
-// //       });
-// //     }
-// //     return days;
-// //   }
-// // };
 
 exports.seed = function(knex, Promise) {
   // Deletes ALL existing entries

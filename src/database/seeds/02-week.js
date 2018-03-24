@@ -49,12 +49,8 @@ const fake = [
     studentId: 1
   },
   {
-    week: 5,
-    studentId: 1
-  },
-  {
     week: 10,
-    studentId: 2
+    studentId: 1
   },
   {
     week: 11,
@@ -196,7 +192,6 @@ const fake = [
     week: 15,
     studentId: 3
   },
-
   {
     week: 1,
     studentId: 4
