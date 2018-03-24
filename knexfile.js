@@ -17,5 +17,5 @@ const devConfig = {
 
 module.exports = {
   development: devConfig,
-  production: {}
+  production: { client: 'pg', connection: process.env.DATABASE_URL }
 };
