@@ -4,15 +4,11 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "npm-run-all --parallel dev:server dev:webpack",
-    "dev:webpack":
-      "./node_modules/.bin/webpack --watch --env.NODE_ENV=development",
+    "dev": "npm-run-all dev:server",
     "dev:server":
-      "NODE_ENV=development node server.js server.js --watch src --watch server.js",
+      "NODE_ENV=development nodemon server.js server.js --watch src --watch server.js",
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/webpack -p --env.NODE_ENV=production",
-    "reseed": "knex migrate:rollback && knex migrate:latest && knex seed:run"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
